@@ -50,7 +50,7 @@ function Hero() {
               <h2>{accountRef.current ? contractState.myBalance : 0} AAA</h2>
               <p className="address">
                 {accountRef.current
-                  ? (accountRef.current)
+                  ? formatAddress(accountRef.current)
                   : "Connect you wallet"}
                 <Copy address={accountRef.current} />
               </p>

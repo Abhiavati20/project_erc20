@@ -1,7 +1,7 @@
-import { getSecretMessage } from "../helpers/constants";
-import initDB from "../helpers/initDb";
-import Balances from "../models/Balances";
-import Events from "../models/Events";
+import { getSecretMessage } from "../../helpers/constants";
+import initDB from "../../helpers/initDb";
+import Balances from "../../models/Balances";
+import Events from "../../models/Events";
 import chalk from "chalk";
 
 initDB();
